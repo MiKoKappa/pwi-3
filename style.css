@@ -45,7 +45,6 @@ body{
 	min-width: 128px;
 	display: flex;
 	align-items: center;
-	user-drag: none; 
   	user-select: none;
 }
 
