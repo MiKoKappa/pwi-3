@@ -121,7 +121,7 @@ const getPosArray = (symbol) => {
 //Function that sets number of players
 const playerSetter = (e) => {
 	resetGame();
-	playerCount = e.target.attributes["alt"].value;
+	playerCount = parseInt(e.target.getAttribute("alt"),10);
 	nowPlayer = 1;
 	changeDisplay("Now choosing: Player " + nowPlayer)
 }
